@@ -1,0 +1,15 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "data": {
+          "api_url": "API URL (e.g. http://localhost:5000)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to API endpoint",
+      "unknown": "Unexpected error occurred"
+    }
+  }
+}
