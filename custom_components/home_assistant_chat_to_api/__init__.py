@@ -2,6 +2,8 @@
 from __future__ import annotations
 
 import logging
+import json
+from pathlib import Path
 from typing import Literal
 
 import aiohttp
@@ -21,6 +23,12 @@ from .const import (
 )
 
 _LOGGER = logging.getLogger(__name__)
+
+# Load manifest.json
+with Path(__file__).parent.joinpath('manifest.json').open() as manifest_file:
+    manifest = json.load(manifest_file)
+
+__version__ = manifest['version']
 
 async def async_setup(hass: HomeAssistant, config: dict) -> bool:
     """Set up OpenAI Conversation."""
