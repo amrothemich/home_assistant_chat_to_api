@@ -2,16 +2,16 @@
   "domain": "home_assistant_chat_to_api",
   "name": "Chat to API",
   "codeowners": [
-    "@aaroncasey"
+    "@amrothemich"
   ],
   "config_flow": true,
   "dependencies": [
     "conversation"
   ],
-  "documentation": "https://github.com/aaroncasey/home_assistant_chat_to_api",
+  "documentation": "https://github.com/amrothemich/home_assistant_chat_to_api",
   "integration_type": "service",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/aaroncasey/home_assistant_chat_to_api/issues",
+  "issue_tracker": "https://github.com/amrothemich/home_assistant_chat_to_api/issues",
   "requirements": [],
-  "version": "1.0.4"
+  "version": "1.0.0"
 }
