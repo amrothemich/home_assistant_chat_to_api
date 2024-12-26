@@ -13,5 +13,5 @@
   "iot_class": "cloud_polling",
   "issue_tracker": "https://github.com/amrothemich/home_assistant_chat_to_api/issues",
   "requirements": [],
-  "version": "1.0.0"
+  "version": "v1.0.1"
 }
